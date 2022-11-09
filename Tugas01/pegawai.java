@@ -7,12 +7,12 @@ public class Pegawai {
     public Pegawai(String name, String address, int number) {
         System.out.println("Menyusun Pegawai");
         this.name = name; 
-        this.address address;
-        this.number number;
+        this.address = address;
+        this.number = number;
     }
 
     public void mailCheck() { 
-        System.out.println("Memeriksa Surat Untuk "+ this.name+" "+this.address);
+        System.out.println("Memeriksa Surat Untuk "+ this.name+" "+ this.address);
     }
 
     public String toString() {
@@ -28,7 +28,7 @@ public class Pegawai {
     }
 
     public void setAddress (String newAddress) {
-        address newAddress;
+        address = newAddress;
     }
 
     public int getNumber() {

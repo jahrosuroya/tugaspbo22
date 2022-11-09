@@ -2,6 +2,7 @@ public class VirtualDemo{
 
     public static void main(String[] args) {
 
+        //upcasting
         Gaji s = new Gaji("Wahyu", "KUBAR", 3, 5000.00); 
         Pegawai e = new Gaji("Ini nama", "Samarinda", 2, 2500.00);
 

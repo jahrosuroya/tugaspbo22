@@ -1,4 +1,4 @@
-public class Gaji extends Pegawai {
+public class Gaji extends Pegawai { //subclass dari kelas pegawai (inheritance)
 
     private double salary; //Gaji Tahunan 
     
@@ -7,6 +7,7 @@ public class Gaji extends Pegawai {
         setSalary(salary);
     }
 
+    @Override //polymorphism dinamis
     public void mailCheck() {
         System.out.println("Memeriksa kelas gaji dalam surat ");
         System.out.println("Surat tertuju untuk " + getName() +" dengan gaji " + salary);
@@ -18,7 +19,7 @@ public class Gaji extends Pegawai {
 
     public void setSalary (double newsalary) {
         if (newSalary >= 0.0){
-            salary-newSalary;
+            salary = newSalary;
         }
     }
 
