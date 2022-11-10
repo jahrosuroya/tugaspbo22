@@ -17,7 +17,7 @@ public class Gaji extends Pegawai { //subclass dari kelas pegawai (inheritance)
         return salary;
     }
 
-    public void setSalary (double newsalary) {
+    public void setSalary (double newSalary) {
         if (newSalary >= 0.0){
             salary = newSalary;
         }
