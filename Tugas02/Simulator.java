@@ -10,7 +10,7 @@ public class Simulator {
         Asdos c = new Asdos("Angel-chan", 64);
         Mahasiswa d = new Mahasiswa("Firman", 60);
         Mahasiswa e = new Mahasiswa("Nid to pass this sem", 69);
-        Dosen f = new Dosen("Nivorko", 24);
+        Dosen f = new Dosen("Nivotko", 24);
 
         a.test();
         b.test();
@@ -19,7 +19,7 @@ public class Simulator {
         e.test();
         f.test();
 
-        System.out.println("Total Jam Sibuk elemen Fasilkom adalah 330");
+        System.out.println("Total jam Sibuk elemen Fasilkom adalah 330");
 
     }
     
